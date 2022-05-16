@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q3tMsLCAAdUpCRmYmKwpzPkVyUaPZinPwBBFVQL1go2v6nkw4Flc7mfNnKNiE02MIKf2nbxeVuo4tJ1IJjt8eA==",
+  "success": false,
+  "projectFilePath": "C:\\git\\csharp-study\\HelloAspNet\\HelloBlazorClient\\HelloBlazorClient.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Microsoft.AspNetCore.Components.WebAssembly 패키지를 찾을 수 없습니다. 원본에 ID가 Microsoft Visual Studio Offline Packages인 패키지가 없습니다.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly",
+      "targetGraphs": [
+        "net5.0",
+        "net5.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Microsoft.AspNetCore.Components.WebAssembly.DevServer 패키지를 찾을 수 없습니다. 원본에 ID가 Microsoft Visual Studio Offline Packages인 패키지가 없습니다.",
+      "libraryId": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+      "targetGraphs": [
+        "net5.0",
+        "net5.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "System.Net.Http.Json 패키지를 찾을 수 없습니다. 원본에 ID가 Microsoft Visual Studio Offline Packages인 패키지가 없습니다.",
+      "libraryId": "System.Net.Http.Json",
+      "targetGraphs": [
+        "net5.0",
+        "net5.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Microsoft.NETCore.App.Runtime.browser-wasm 패키지를 찾을 수 없습니다. 원본에 ID가 Microsoft Visual Studio Offline Packages인 패키지가 없습니다.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.browser-wasm",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

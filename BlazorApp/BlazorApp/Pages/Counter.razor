@@ -1,0 +1,35 @@
+﻿@page "/counter"
+
+@using System.Threading; 
+
+<h1 style="color:@_color">Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-secondary" @onclick="AutoIncrement">Auto Increment</button>
+
+@code {
+
+    [CascadingParameter(Name = "ThemeColor")]
+    string _color { get; set; }
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    void AutoIncrement()
+    {
+        var timer = new Timer(x =>
+        {
+            InvokeAsync(() =>
+            {
+                IncrementCount();
+                StateHasChanged();  // 내장함수, 상태가 변함을 알고 알아서 바뀜
+            });
+        }, null, 1000, 1000);
+    }
+}

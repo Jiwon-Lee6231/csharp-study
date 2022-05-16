@@ -1,0 +1,7 @@
+C:\git\csharp-study\CSharp5\CSharp5\bin\Debug\CSharp5.exe.config
+C:\git\csharp-study\CSharp5\CSharp5\bin\Debug\CSharp5.exe
+C:\git\csharp-study\CSharp5\CSharp5\bin\Debug\CSharp5.pdb
+C:\git\csharp-study\CSharp5\CSharp5\obj\Debug\CSharp5.csproj.AssemblyReference.cache
+C:\git\csharp-study\CSharp5\CSharp5\obj\Debug\CSharp5.csproj.CoreCompileInputs.cache
+C:\git\csharp-study\CSharp5\CSharp5\obj\Debug\CSharp5.exe
+C:\git\csharp-study\CSharp5\CSharp5\obj\Debug\CSharp5.pdb

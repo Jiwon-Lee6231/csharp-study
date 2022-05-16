@@ -1,0 +1,7 @@
+C:\git\csharp-study\Csharp6\Csharp6\bin\Debug\Csharp6.exe.config
+C:\git\csharp-study\Csharp6\Csharp6\bin\Debug\Csharp6.exe
+C:\git\csharp-study\Csharp6\Csharp6\bin\Debug\Csharp6.pdb
+C:\git\csharp-study\Csharp6\Csharp6\obj\Debug\Csharp6.csproj.AssemblyReference.cache
+C:\git\csharp-study\Csharp6\Csharp6\obj\Debug\Csharp6.csproj.CoreCompileInputs.cache
+C:\git\csharp-study\Csharp6\Csharp6\obj\Debug\Csharp6.exe
+C:\git\csharp-study\Csharp6\Csharp6\obj\Debug\Csharp6.pdb

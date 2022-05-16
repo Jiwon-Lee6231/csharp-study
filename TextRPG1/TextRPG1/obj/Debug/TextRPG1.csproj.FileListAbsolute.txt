@@ -1,0 +1,7 @@
+C:\git\csharp-study\TextRPG1\TextRPG1\bin\Debug\TextRPG1.exe.config
+C:\git\csharp-study\TextRPG1\TextRPG1\bin\Debug\TextRPG1.exe
+C:\git\csharp-study\TextRPG1\TextRPG1\bin\Debug\TextRPG1.pdb
+C:\git\csharp-study\TextRPG1\TextRPG1\obj\Debug\TextRPG1.csproj.AssemblyReference.cache
+C:\git\csharp-study\TextRPG1\TextRPG1\obj\Debug\TextRPG1.csproj.CoreCompileInputs.cache
+C:\git\csharp-study\TextRPG1\TextRPG1\obj\Debug\TextRPG1.exe
+C:\git\csharp-study\TextRPG1\TextRPG1\obj\Debug\TextRPG1.pdb

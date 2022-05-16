@@ -1,0 +1,54 @@
+﻿@using BlazorApp.Data;
+
+<p>
+    Users: <b>@Users.Count</b>
+</p>
+
+<br />
+
+<Counter></Counter>
+
+<ul class="list-group">
+    @foreach (UserData user in Users)
+    {
+        <li @key="user" class="list-group-item">
+            <!-- 람다식 : onclick="(() => KickUser(user))" -->
+            <button type="button" class="btn btn-link" @onclick="(() => KickUser(user))">[Kick]</button>
+            <label style="color:@_color">@user.Name</label>
+        </li>
+    }
+</ul>
+
+@code {
+
+    [CascadingParameter(Name = "ThemeColor")]
+    string _color { get; set; }
+
+    [Parameter]
+    public List<UserData> Users { get; set; }
+
+    [Parameter]
+    public EventCallback CallbackTest { get; set; }
+    // Action 함수 선언 시 결과 반영이 안되기 때문에 StateHasChanged()를 호출해야함.
+
+    protected override void OnInitialized()
+    {
+        // base.OnInitialized();
+        Users.Add(new UserData() { Name = "Rookiss" });
+        Users.Add(new UserData() { Name = "Faker" });
+        Users.Add(new UserData() { Name = "Deft" });
+    }
+
+    public void AddUser(UserData user)
+    {
+        Users.Add(user);
+    }
+
+    public void KickUser(UserData user)
+    {
+        Users.Remove(user);
+
+        // CallbackTest.Invoke();
+        CallbackTest.InvokeAsync(null);
+    }
+}
